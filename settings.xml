@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://apache.org">
+
+    <!-- Custom local repository path (Optional) -->
+    <!-- <localRepository>/path/to/local/repo</localRepository> -->
+
+    <!-- Proxy settings for networks behind a firewall (Optional) -->
+    <proxies>
+        <!--
+        <proxy>
+          <id>optional-proxy-id</id>
+          <active>true</active>
+          <protocol>http</protocol>
+          <host>://example.com</host>
+          <port>8080</port>
+          <username>proxyuser</username>
+          <password>somepassword</password>
+          <nonProxyHosts>://google.com|*.example.com</nonProxyHosts>
+        </proxy>
+        -->
+    </proxies>
+
+    <!-- Server authentication credentials for remote repositories (Optional) -->
+    <servers>
+        <!--
+        <server>
+          <id>my-internal-repo</id>
+          <username>maven_user</username>
+          <password>secure_password_or_token</password>
+        </server>
+        -->
+    </servers>
+
+    <!-- Mirror settings to route traffic through a private repository manager (Optional) -->
+    <mirrors>
+        <!--
+        <mirror>
+          <id>internal-mirror</id>
+          <mirrorOf>central</mirrorOf>
+          <name>Internal Enterprise Repository Mirror</name>
+          <url>https://example.com</url>
+        </mirror>
+        -->
+    </mirrors>
+
+    <!-- Environment-specific build profiles (Optional) -->
+    <profiles>
+        <profile>
+            <id>development</id>
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <name>Maven Central</name>
+                    <url>https://repo1.maven.org/maven2/</url>
+                    <layout>default</layout>
+                    <releases><enabled>true</enabled></releases>
+                    <snapshots><enabled>false</enabled></snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>central</id>
+                    <url>https://repo1.maven.org/maven2/</url>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+    </profiles>
+
+    <!-- Profiles that are active by default -->
+    <activeProfiles>
+        <activeProfile>development</activeProfile>
+    </activeProfiles>
+
+</settings>

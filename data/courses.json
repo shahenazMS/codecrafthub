@@ -1,0 +1,19 @@
+[ {
+  "id" : "53fcd4ea-0a1c-461d-943c-312ba6b4df96",
+  "name" : "Python Basics",
+  "description" : "Learn Python fundamentals",
+  "targetDate" : null,
+  "status" : "COMPLETED"
+}, {
+  "id" : "4b407e5e-783b-46af-a8f3-ea77a061e060",
+  "name" : "Generative AI Concepts",
+  "description" : "Fundamental of Generative AI",
+  "targetDate" : null,
+  "status" : "IN_PROGRESS"
+}, {
+  "id" : "6907dcef-7b2c-4484-8a49-995da35eb5e6",
+  "name" : "Python for Data Science and AI",
+  "description" : "Concept for data ience and AI integration",
+  "targetDate" : null,
+  "status" : "NOT_STARTED"
+} ]
