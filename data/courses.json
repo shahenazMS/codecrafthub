@@ -1,19 +1,19 @@
 [ {
-  "id" : "53fcd4ea-0a1c-461d-943c-312ba6b4df96",
-  "name" : "Python Basics",
-  "description" : "Learn Python fundamentals",
+  "id" : "a657f2a4-999b-4e2f-af4f-7f4cb04e54bb",
+  "name" : "test",
+  "description" : "saasdsd",
   "targetDate" : null,
-  "status" : "COMPLETED"
+  "status" : "NOT_STARTED"
 }, {
-  "id" : "4b407e5e-783b-46af-a8f3-ea77a061e060",
-  "name" : "Generative AI Concepts",
-  "description" : "Fundamental of Generative AI",
+  "id" : "c9a0122f-35f4-4e2a-8157-43a857635539",
+  "name" : "Test2",
+  "description" : "sadsd",
   "targetDate" : null,
   "status" : "IN_PROGRESS"
 }, {
-  "id" : "6907dcef-7b2c-4484-8a49-995da35eb5e6",
-  "name" : "Python for Data Science and AI",
-  "description" : "Concept for data ience and AI integration",
+  "id" : "6e6fcbbd-758d-4f6e-91ee-9a9c6180f9f3",
+  "name" : "sasd",
+  "description" : "ss",
   "targetDate" : null,
-  "status" : "NOT_STARTED"
+  "status" : "IN_PROGRESS"
 } ]
